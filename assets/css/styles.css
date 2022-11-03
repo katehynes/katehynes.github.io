@@ -22,3 +22,9 @@ hr {
 .top {
   margin-top: 5%;
 }
+a:link, a:visited {
+  color: white;
+}
+a:hover {
+  color: #d3c0d2;
+}
