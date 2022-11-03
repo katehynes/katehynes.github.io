@@ -1,3 +1,32 @@
+@media only screen and (max-width: 767px) {
+  .phone-header {
+    font-size: 80px;
+    padding-top: 20px;
+  }
+  .phone-top {
+    font-size: 15px;
+    padding-top: 29px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
+  .lg-about, .lg-links {
+    font-size: 30px;
+  }
+  .lg-name {
+    font-size: 130px;
+    vertical-align: center;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .xl-about, .xl-links {
+    font-size: 36px;
+  }
+
+  .xl-name {
+    font-size: 170px;
+    vertical-align: center;
+  }
+}
 body {
   background-color: #5e5768;
 }
@@ -6,25 +35,20 @@ body {
   color: white;
   font-family: 'Lora', Georgia, serif;
 }
-
-.xl-about, .xl-links {
-  font-size: 40px;
-}
-
-.xl-name {
-  font-size: 170px;
-}
 hr {
   color: white;
-  width: auto;
-  height: auto;
+  width: 100%;
+  border-top: 4px;
 }
-.top {
-  margin-top: 5%;
+.line-space {
+  height: 75px;
 }
 a:link, a:visited {
   color: white;
 }
 a:hover {
   color: #d3c0d2;
+}
+.third {
+  height: 33%;
 }
