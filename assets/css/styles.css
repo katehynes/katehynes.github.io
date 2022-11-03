@@ -1,3 +1,24 @@
 body {
   background-color: #5e5768;
 }
+
+.text {
+  color: white;
+  font-family: serif;
+}
+
+.xl-about, .xl-links {
+  font-size: 40px;
+}
+
+.xl-name {
+  font-size: 190px;
+}
+hr {
+  color: white;
+  width: auto;
+  height: auto;
+}
+.top {
+  margin-top: 5%;
+}
