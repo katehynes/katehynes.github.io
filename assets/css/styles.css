@@ -1,30 +1,43 @@
 @media only screen and (max-width: 767px) {
-  .phone-header {
-    font-size: 80px;
-    padding-top: 20px;
+  .about, .links {
+    font-size: 20px;
   }
-  .phone-top {
-    font-size: 15px;
-    padding-top: 29px;
+  .name {
+    font-size: 100px;
+  }
+  .tall {
+    height: 60px;
+  }
+  .short {
+    height: 20px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1439px) {
-  .lg-about, .lg-links {
+  .about, .links {
     font-size: 30px;
   }
-  .lg-name {
+  .name {
     font-size: 130px;
-    vertical-align: center;
+  }
+  .tall {
+    height: 75px;
+  }
+  .short {
+    height: 30px;
   }
 }
 @media only screen and (min-width: 1440px) {
-  .xl-about, .xl-links {
+  .about, .links {
     font-size: 36px;
   }
-
-  .xl-name {
+  .name {
     font-size: 170px;
-    vertical-align: center;
+  }
+  .tall {
+    height: 75px;
+  }
+  .short {
+    height: 30px;
   }
 }
 body {
@@ -40,9 +53,12 @@ hr {
   width: 100%;
   border-top: 4px;
 }
-.line-space {
+/* .tall {
   height: 75px;
 }
+.short {
+  height: 30px;
+} */
 a:link, a:visited {
   color: white;
 }
